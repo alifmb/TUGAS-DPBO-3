@@ -1,0 +1,43 @@
+#include <iostream>
+using namespace std;
+
+struct SpekPC
+{
+    char processor_name[50];
+    int processor_price;
+    char disk_type[50];
+    int disk_capacity;
+    int disk_price;
+    int ram_capacity;
+    int ram_price;
+};
+
+int main() 
+{
+    SpekPC s;
+    cout << "Enter information," << endl;
+    cout << "Enter Processor Name: ";
+    cin >> s.processor_name;
+    cout << "Enter Processor Price : ";
+    cin >> s.processor_price;
+    cout << "Disk Type (SDD/HDD): ";
+    cin >> s.disk_type;
+    cout << "Enter Disk Capacity in MB : ";
+    cin >> s.disk_capacity;
+    cout << "Enter Disk Price : ";
+    cin >> s.disk_price;
+    cout << "Enter RAM Capacity in MB : ";
+    cin >> s.ram_capacity;
+    cout << "Enter RAM Price : ";
+    cin >> s.ram_price;
+
+    cout << "\nDisplaying Information," << endl;
+    cout << "processor_name: " << s.processor_name << endl;
+    cout << "processor_price: " << s.processor_price << endl;
+    cout << "disk_type: " << s.disk_type << endl;
+    cout << "disk_capacity: " << s.disk_capacity << endl;
+    cout << "disk_price: " << s.disk_price << endl;
+    cout << "ram_capacity: " << s.ram_capacity << endl;
+    cout << "ram_price: " << s.ram_price << endl;
+    return 0;
+}
