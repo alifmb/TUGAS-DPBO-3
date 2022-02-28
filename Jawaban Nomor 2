@@ -1,0 +1,13 @@
+processor_name = input("Enter Processor Name: ")
+processor_price = input("Enter Processor Price: ")
+disk_type = input("Enter Disk Type(SDD/HDD): ")
+disk_capacity = input("Enter Disk Capacity: ")
+disk_price = input("Enter Disk Price: ")
+ram_capacity = input("Enter RAM Capacity: ")
+ram_price = input("Enter RAM Price: ")
+
+# Display all values on screen
+print("\n")
+print("Printing PC Details")
+print("Processor Name", "Processor Price", "Disk Type", "Disk Capacity", "Disk Price", "RAM Capacity", "RAM Price")
+print(processor_name, processor_price, disk_type, disk_capacity, disk_price, ram_capacity, ram_price)
